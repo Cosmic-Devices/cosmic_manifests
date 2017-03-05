@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="Cosmic-Devices/device_samsung_n7100" path="device/samsung/n7100" remote="github" revision="n7.1" />
+  <project name="Cosmic-Devices/device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="github" revision="n7.1" />
+  <project name="ParanoidNote/platform_vendor_samsung" path="vendor/samsung" remote="github" revision="aosp-7.1" />
+  <remove-project name="LineageOS/android_hardware_samsung" />
+  <project name="ParanoidNote/platform_hardware_samsung" path="hardware/samsung" remote="github" revision="aosp-7.1" />
+  <project name="ParanoidNote/void-kernel" path="kernel/samsung/smdk4412" remote="github" revision="master" />
+  <project name="LineageOS/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="github" revision="cm-14.1" />
+  <remove-project name="platform_external_stlport" />
+  <project name="LineageOS/android_external_stlport" path="external/stlport" remote="github" revision="cm-14.1" />
+</manifest>
