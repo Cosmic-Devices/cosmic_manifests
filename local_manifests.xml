@@ -14,7 +14,7 @@
   <project name="AOSP-bacon/android_vendor_qcom_opensource_dataservices" path="vendor/qcom/opensource/dataservices" remote="github" revision="cm-13.0" />
   <project name="DirtyUnicorns/android_device_oppo_common" path="device/oppo/common" remote="github" revision="n7x-caf" />
   <project name="AgentFabulous/android_hardware_qcom_camera" path="hardware/qcom/camera" remote="github" revision="working" />
-  <project name="Cosmic-OS/plaform_system_vold" path="system/vold" remote="github" revision="n7.1-test"/>
+  <project name="Cosmic-OS/platform_system_vold" path="system/vold" remote="github" revision="n7.1-test"/>
   <project name="android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="Lineage"  revision="cm-14.1" />
   <project name="Cosmic-Devices/proprietary_vendor_oneplus" path="vendor/oneplus"  revision="n7.1-test" remote="github" />
 
