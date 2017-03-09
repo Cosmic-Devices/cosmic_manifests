@@ -3,6 +3,7 @@
   <remote name="Lineage" fetch="https://github.com/LineageOS/" />
   <remove-project name="device_qcom_common" />
   <remove-project name="platform_system_vold" />
+  <remove-project name="platform_frameworks_av" />
   <remove-project name="platform_external_ebtables" />
   <remove-project name="LineageOS/android_hardware_qcom_camera" />
 <!-- LINEAGE -->
@@ -15,11 +16,11 @@
   <project name="DirtyUnicorns/android_device_oppo_common" path="device/oppo/common" remote="github" revision="n7x-caf" />
   <project name="AgentFabulous/android_hardware_qcom_camera" path="hardware/qcom/camera" remote="github" revision="working" />
   <project name="Cosmic-OS/platform_system_vold" path="system/vold" remote="github" revision="n7.1-test"/>
-  <project name="android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="Lineage"  revision="cm-14.1" />
+  <project name="Cosmic-Devices/platform_external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="github"  revision="n7.1" />
   <project name="Cosmic-Devices/proprietary_vendor_oneplus" path="vendor/oneplus"  revision="n7.1-test" remote="github" />
-
+  <project name="Cosmic-OS/platform_frameworks_av" path="frameworks/av" remote="github" revision="n7.1-test"/>
  <!-- Bacon -->
   <project path="device/oneplus/bacon" name="Cosmic-Devices/platform_device_oneplus_bacon" revision="n7.1" remote="github" />
-  <project path="kernel/oneplus/msm8974" name="nikhil18/lightning-kernel-bacon" revision="lightning-3.4-cam" remote="github"/>
+  <project path="kernel/oneplus/msm8974" name="Cosmic-Devices/lightning-kernel-bacon" revision="n7.1-sultan" remote="github"/>
 
 </manifest>
